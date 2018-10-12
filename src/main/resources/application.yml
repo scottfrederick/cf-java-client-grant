@@ -1,0 +1,12 @@
+cloudfoundry:
+  api-host: api.system.example.com
+  api-port: 443
+  default-org: test
+  default-space: development
+  skip-ssl-validation: true
+  client-id: admin
+  client-secret: admin-client-secret
+
+logging:
+  level:
+    cloudfoundry-client: DEBUG
